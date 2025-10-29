@@ -71,6 +71,19 @@
   .btn-getstarted {
   white-space: nowrap; /* Prevents the text from wrapping */
 }
+.logo img {
+  height: 50px !important;
+  max-height: none !important;
+  width: auto;
+}
+
+/* Smaller logo on mobile */
+@media (max-width: 768px) {
+  .logo img {
+    height: 40px !important;
+  }
+}
+
 
 </style>
 </head>
@@ -81,7 +94,8 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
      <a href="index.html" class="logo d-flex align-items-center me-auto">
-  <img src="assets/img/logo_proprio.svg" alt="Logo Céline Beauchemin" class="img-fluid" style="height: 60px;">
+  <img src="assets/img/logo_proprio.svg" alt="Logo Céline Beauchemin" class="img-fluid" style="height: 80px;">
+
 </a>
 
 
@@ -138,7 +152,7 @@
               <img src="assets/img/about/about-portrait-2.webp" class="img-fluid" alt="">
             </div>
             <div class="experience-badge" data-aos="fade-up">
-              <h2>30</h2>
+              <h2>32</h2>
               <p>ans<br>&nbsp;d'expérience</p>
             </div>
             <div class="projects-badge" data-aos="fade-left">
@@ -154,7 +168,7 @@
             <div class="features">
               <div class="feature-item mb-4" data-aos="fade-up">
                 <div class="feature-icon">
-                  <i class="bi bi-rocket-takeoff"></i>
+                  <i class="bi bi-globe2"style="color: #ffffff;"></i>
                 </div>
                 <div class="feature-content">
                  <h4>Une expertise reconnue</h4>
@@ -165,7 +179,7 @@
 
               <div class="feature-item mb-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature-icon">
-                  <i class="bi bi-globe2"></i>
+                  <i class="bi bi-globe2"style="color: #ffffff;"></i>
                 </div>
                 <div class="feature-content">
                   <h4>Une approche humaine et authentique</h4>
@@ -570,7 +584,7 @@
     </div>
 
     <div class="container copyright text-center">
-      <p>Site web par <span class="text-primary"> ROY MARKETING</span></p>
+      <p>Site web par <a href="https://roymarketing.ca/">Roy Marketing</a> </p>
 
     </div>
 
