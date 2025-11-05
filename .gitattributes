@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
+# DO NOT TOUCH image files (prevents corruption)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+
+# SVG must not be normalized either
+*.svg -text
+
+# Default for everything else
 * text=auto
+
